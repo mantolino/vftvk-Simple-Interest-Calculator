@@ -4,7 +4,6 @@ h1{color:grey;font-family:verdana}
 {
     background-color: white;
     color: gray;
-    font-size: 18pt;
 }
 
 .maindiv
@@ -15,4 +14,9 @@ h1{color:grey;font-family:verdana}
     padding: 20px;
     border-radius: 25px;
     align-self: center;
+}
+
+.value
+{
+    background-color: yellow;
 }
