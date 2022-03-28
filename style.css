@@ -8,12 +8,14 @@ h1{color:grey;font-family:verdana}
 
 .maindiv
 {
+    /* I made this box larger as the original example seems larger*/
     background-color: white;
     color: black;
     width: 300px;
     padding: 20px;
     border-radius: 25px;
     align-self: center;
+
 }
 
 .value
