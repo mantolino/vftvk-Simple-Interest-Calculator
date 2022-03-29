@@ -8,7 +8,7 @@
     <body>
         <div id='mainCalculator' class='maindiv'>
             <h1 id='mainCalculatorTitle'>Simple Interest Calculator</h1>
-            <table>
+            <table class="formtable">
                 <tr>
                     <td>Amount</td>
                     <td><input type="number"  id="principal" value="10000"></td>
@@ -36,15 +36,20 @@
                     </td>
                 </tr>
                 <tr>
-                    <td> <button onclick="compute()">Compute Interest</button></td>
+                    <td colspan="2"> <button onclick="compute()">Compute Interest</button></td>
                 </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
                 <tr>
-                    <td colspan=2>
+                    <td colspan="2">
                         <span id="result"></span>
                     </td>
                 <tr>
             </table>
+            <br/>
+            <span id="span_copyright" class="copyright">&#169; Everyone Can Get Rich</span>
         </div>
+    <br/>
+    <br/>
     </body>
-    <footer>&#169; This Calculator belongs to Marcello Antolino</footer>
+    <footer><span class="copyright">&#169; This Calculator belongs to Marcello Antolino</span></footer>
 </html>
